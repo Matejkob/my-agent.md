@@ -2,33 +2,29 @@
   "includeCoAuthoredBy": false,
   "permissions": {
     "allow": [
-      // GitHub
       "Bash(gh pr list:*)",
       "Bash(gh pr view:*)",
       "Bash(gh pr diff:*)",
-      // Git
+      
       "Bash(git:*)",
-      // Files System
+      
       "Bash(mv:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
       "Bash(find:*)",
       "Bash(rg:*)",
       "Bash(echo:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(source:*)",
-      // Xcode / Swift
+      
       "Bash(xcodebuild:*)",
-      "Bash(swift:*)",
+      "Bash(swift:*)"
     ],
     "ask": [
-        // GitHub
         "Bash(gh pr create:*)",
-        // Git
-        "Bash(git commit:*)",
+        "Bash(git commit:*)"
     ],
     "deny": []
   },
-  "cleanupPeriodDays": 1800,
+  "cleanupPeriodDays": 1800
 }
-
