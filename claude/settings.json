@@ -1,0 +1,30 @@
+{
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      
+      "Bash(git:*)",
+      
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "Bash(echo:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(source:*)",
+      
+      "Bash(xcodebuild:*)",
+      "Bash(swift:*)"
+    ],
+    "ask": [
+        "Bash(gh pr create:*)",
+        "Bash(git commit:*)"
+    ],
+    "deny": []
+  },
+  "cleanupPeriodDays": 1800
+}
